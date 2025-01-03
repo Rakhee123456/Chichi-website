@@ -1,0 +1,32 @@
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 200px;
+}
+
+.brands h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.brands-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Full width of the container */
+    height: 300px; /* Set the banner height */
+    overflow: hidden; /* Prevent content overflow */
+    
+}
+
+.brands-logo img {
+    width: 100%; /* Image stretches to the full width of the container */
+    height: 100%; /* Image stretches to fill the container height */
+    object-fit: contain; /* Ensures the image covers the container without distortion */
+    display: block;
+}

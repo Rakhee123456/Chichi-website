@@ -1,0 +1,125 @@
+.footer {
+  background-color: #2a0101;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  width: 100%; 
+  padding-top: 3rem;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer-logo-section {
+  text-align: center;
+}
+
+.footer-logo-img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer-logo-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.footer-links-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  text-align: left;
+}
+
+.footer-links h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.footer-social {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-social i {
+  font-size: 24px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.footer-social .icons:hover {
+  color: #fdd835;
+  cursor: pointer;
+}
+
+.footer-app-links {
+  display: flex;
+  gap: 20px;
+  margin-top: 2rem ;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #000000;
+}
+.footer-app-links-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 2rem ;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  left: 10rem;
+  bottom: 1rem;
+}
+.footer-app-links-buttons img{
+  width: 100px;
+  height: 100px;
+}
+.footer-app-links button {
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.footer-app-links button:hover {
+  background-color: #fff;
+  color: #2a0101;
+}
+
+.footer-app-links button img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 20px;
+  position: relative;
+  bottom: 0.8rem;
+}
